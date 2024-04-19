@@ -1,0 +1,197 @@
+
+
+body{
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #F0D0C1;
+    color:#000000;
+    
+}
+
+ol,ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#332b24 ;
+}
+
+
+
+strong{
+    color:#BF5B4B;
+}
+
+/*titulo*/
+
+
+.menu__lista{
+    
+    display:flex;
+    justify-content:space-around;
+    padding: 0% 0% 0% 50%;
+    font-size: larger;
+    margin: 0%;
+    
+}
+
+.titulo__perfil{
+    padding: 5% 0% 5% 0%;
+    height: 400px;
+    
+}
+
+
+.titulo__div{
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.titulo__bio{
+    font-size: 60px;
+    font-family: initial;
+    padding: 2%  10% 2% 15%;
+}
+
+.titulo__subtitulo{
+    font-size:30px;
+    font-family: initial;
+    padding: 0% 10% 0% 15%;
+}
+
+.titulo__redes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10% 5% 10%;
+    font-size: 20px;
+}
+
+.sobre__container{
+    padding: 0% 0% 0% 10%;
+}
+
+.sobre__titulo{
+    padding: 5% 0% 0% 40%;
+    font-size: 350%;
+    font-style: oblique;
+}
+
+.sobre__paragrafo{
+    font-size: 150%;
+    padding: 0% 15% 0% 15%;
+    font-family: initial;
+}
+
+
+
+.skills__title{
+    padding: 10% 0% 0% 45%;
+    font-size: 350%;
+    font-style: oblique;
+}
+    
+
+.habilidades__box{
+    padding:0% 0% 0% 40%;
+}
+
+.skills__img{
+    padding: 0% 25% 0% 40%;
+}
+
+.skills__nome{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.hobbies__titulo{
+    padding: 10% 0% 0% 50%;
+    font-size: 350%;
+    font-style: oblique;
+}
+
+.hobbies__box{
+    padding: 0% 50% 0% 50%;
+    
+}
+
+.hobbies__nome{
+    font-size: 170%;
+}
+
+.academico__titulo{
+    padding: 7% 50% 3% 50%;
+    font-size: 350%;
+    font-style: oblique;
+}
+
+
+.academico__cursos__item__nome{
+    font-size: 155%;
+    padding: 0% 10% 0% 0%;
+   
+}
+
+.academico__cursos__item__subtitulo{
+    font-size: 140%;
+}
+
+.experiencia__sessao__titulo{
+    padding: 5% 0% 0% 35%;
+    font-size: 350%;
+    font-style: oblique;
+}
+
+.experiencia__img{
+    padding: 2% 10% 3% 45%;
+}
+
+.experiencia__titulo{
+    padding: 0% 10% 0% 50%;
+    font-size: 200%;
+   
+}
+
+.experiencia__texto{
+    padding: 0% 0% 0% 35%;
+    font-size: 150%;
+}
+
+.experiencia__descricao{
+    padding: 0% 0% 0% 50%;
+    font-size: larger;
+   border: 2px  whitesmoke;
+  text-decoration: overline;
+}
+
+
+.contato__titulo{
+    font-size: 350%;
+    font-style: oblique;
+    padding: 5% 0% 3% 55%;
+}
+
+.contato__texto{
+    padding: 0% 0% 0% 45%;
+    font-size: 150%;
+}
+
+.contato__formulario{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding: 1% 10% 1% 25%;
+   
+}
+
+.footer__rodape{
+    display: flex;
+    justify-content: space-between;
+    font-style: oblique;
+    
+}
